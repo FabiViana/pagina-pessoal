@@ -71,10 +71,18 @@ a:hover {
 
 .site-title {
   font-size: 4em;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  line-height: 1.4em;
 }
 
 .site-subtitle {
   font-style: italic;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.portifolio h2 {
+  font-family: 'Roboto', sans-serif;
 }
 
 .img-portfolio {
