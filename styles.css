@@ -81,11 +81,42 @@ a:hover {
   font-family: 'Roboto Mono', monospace;
 }
 
+.contato,
+ .portifolio {
+  background-color: #FFF0F5;
+  padding: 2em;
+ }
+
+.contato h2,
 .portifolio h2 {
   font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+}
+
+.portifolio .grid {
+  display: grid;
+  gap: 1em;
+}
+
+@media (min-width: 560px) {
+  .portifolio .grid {
+    grid-template-columns: 240px 240px;
+  }
+}
+
+@media (min-width: 880px) {
+  .portifolio .grid {
+    grid-template-columns: repeat(3, 240px);
+    justify-content: center;
+  }
+}
+
+.portifolio figure {
+  text-align: center;
 }
 
 .img-portfolio {
   height: 180px;
-  width: 180px;
+  width: 240px;
+  border-radius: 4px;
 }
